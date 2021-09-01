@@ -21,3 +21,11 @@ body {
   --Light-gray: hsl(0, 0%, 81%);
   --Light-grayish-blue: hsl(210, 46%, 95%);
 }
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card__author > img {
+  border-radius: 50%;
+}
