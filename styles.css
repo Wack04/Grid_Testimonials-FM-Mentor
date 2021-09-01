@@ -21,11 +21,45 @@ body {
   --Light-gray: hsl(0, 0%, 81%);
   --Light-grayish-blue: hsl(210, 46%, 95%);
 }
-.card__author {
+
+/* Typography */
+h3,
+h2 {
+  font-weight: 600;
+}
+h4,
+p {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+p {
+  font-size: 1rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+.testimonial__card {
+  background-color: gold;
+  margin: 2rem 1rem;
+  padding: 2.6rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+}
+
+.testimonial__author {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.4rem;
+  margin-bottom: 1.2rem;
 }
-.card__author > img {
+.author__image {
   border-radius: 50%;
+}
+.author__image--violet {
+  border: 2px solid hsla(263, 55%, 52%, 0.8);
 }
