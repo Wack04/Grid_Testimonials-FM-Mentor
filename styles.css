@@ -45,7 +45,7 @@ h3 {
 
 .testimonial__card {
   background-color: gold;
-  margin: 2rem 1rem;
+  margin: 2rem auto;
   padding: 2.6rem;
   width: 20rem;
   border-radius: 0.8rem;
